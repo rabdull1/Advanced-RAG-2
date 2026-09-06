@@ -1,0 +1,6 @@
+[
+  {
+    "id": "doc1",
+    "text": "This RAG (Retrieval-Augmented Generation) pipeline is a production-ready system that combines semantic search with large language model generation. The system works by first ingesting documents, chunking them into smaller pieces, and generating vector embeddings using the all-MiniLM-L6-v2 sentence transformer model. These embeddings are stored in a ChromaDB vector database for efficient similarity search. When a user asks a question, the system retrieves the most relevant document chunks based on semantic similarity, then uses an LLM to generate a grounded answer using only the retrieved context. The pipeline includes comprehensive evaluation metrics including precision@K, recall@K, mean reciprocal rank, and average precision to measure retrieval quality. The system is designed with production engineering best practices including automated tests, Docker containerization, and GitHub Actions for continuous integration."
+  }
+]

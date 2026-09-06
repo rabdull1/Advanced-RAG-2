@@ -1,0 +1,37 @@
+[
+  {
+    "id": "q001",
+    "question": "What is the purpose of this document?",
+    "expected_answer": "The document provides information about the RAG pipeline system.",
+    "relevant_document_ids": ["doc1"],
+    "category": "general"
+  },
+  {
+    "id": "q002",
+    "question": "How does the retrieval system work?",
+    "expected_answer": "The retrieval system uses semantic search with vector embeddings to find relevant document chunks.",
+    "relevant_document_ids": ["doc1"],
+    "category": "technical"
+  },
+  {
+    "id": "q003",
+    "question": "What metrics are used for evaluation?",
+    "expected_answer": "The system uses precision@K, recall@K, mean reciprocal rank, and average precision for evaluation.",
+    "relevant_document_ids": ["doc1"],
+    "category": "evaluation"
+  },
+  {
+    "id": "q004",
+    "question": "What embedding model is used?",
+    "expected_answer": "The system uses the all-MiniLM-L6-v2 sentence transformer model for embeddings.",
+    "relevant_document_ids": ["doc1"],
+    "category": "technical"
+  },
+  {
+    "id": "q005",
+    "question": "How are documents chunked?",
+    "expected_answer": "Documents are chunked with a configurable chunk size and overlap to preserve context.",
+    "relevant_document_ids": ["doc1"],
+    "category": "ingestion"
+  }
+]
