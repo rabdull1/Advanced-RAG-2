@@ -136,7 +136,7 @@ python -m evals.evaluate_retrieval
 
 ## Limitations
 
-- Requires OpenAI API key for generation (can be replaced with local models)
+- Requires Gemini  API key for generation (can be replaced with local models)
 - Retrieval quality depends on document quality and chunking strategy
 - Faithfulness metric is simplified and may not capture all nuances
 - Current implementation uses a single embedding model
